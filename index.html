@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+    <![endif]-->
+</head>
+<body>
+<div>
+<svg id="container" width="2560" height="1440">
+    <svg id="rightSide" width="1190" height="900" x="250" y="0"></svg>
+    <svg id="leftSide" width="250" height="900"></svg>
+</svg>
+</div>
+
+<!--- Loading JQuery, TweenMax, SnapSVG from local JS directory -->
+<script src="js/vendor/jquery-3.1.1.js"></script>
+<script src="js/vendor/TweenMax.js"></script>
+<script src="js/vendor/snap.svg.js"></script>
+<script src="js/vendor/CSSPlugin.js"></script>
+
+<!--- Our dataset JS file, containing JSON data -->
+<script src="data/dataAll.js"></script>
+
+<script src="data/AgeSpecific_1.js"></script>
+<script src="data/AgeSpecific_2.js"></script>
+<script src="data/AgeSpecific_3.js"></script>
+<script src="data/AgeSpecific_4.js"></script>
+<script src="data/AgeSpecific_5.js"></script>
+<script src="data/AgeSpecific_6.js"></script>
+<script src="data/AgeSpecific_7.js"></script>
+
+
+<!--- Our main JS file, containing code to process the data and generate graphical elements -->
+<script src="js/main.js"></script>
+</body>
+</html>
